@@ -11,6 +11,26 @@ body {
   background-color: #ffffff;
   color: #434455;
 }
+.conteiner {
+  width: 1128px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
 .list {
   list-style: none;
@@ -78,17 +98,48 @@ color: #F4F4FD;
 .address-link:focus {
   color: #404BBF;
 }
+.heder-conteiner {
+  width: 1128px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.heder-nav {
+  display: flex;
+  gap: 76px;
+}
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+.address-list {
+  display: flex;
+  gap: 40px;
+}
 
 /* ================== HERO ================== */
 .hero-section {
   background-color: var(--hero-section-color)
 }
+
+.hero-section-conteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 188px 0;
+}
+
 .hero-title {
+width: 496px;
 font-size: 56px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 color: #FFFFFF;
+margin-bottom: 48px;
 }
 .hero-button {
 font-family: inherit;
